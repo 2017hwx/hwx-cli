@@ -1,0 +1,20 @@
+{
+  "name": "hwx-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cli.js",
+  "bin": {
+    "hwx-cli": "./cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hwx": "hwx-cli"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^8.0.0",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.1.2"
+  }
+}
